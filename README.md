@@ -1,3 +1,4 @@
+# CODE OF DUTY (2018)
 Code of Duty için, IEEE İYTE öğrenci topluluğu tarafından 9-10-11 Mart 2018 tarihinde düzenlenen, 3 ana kategoride 48 saat boyunca aralıksız mücadele sunan bir etkinlik diyebiliriz. Biz, 3 kişilik bir takım olarak bu yarışmaya BrainHack (Algoritma Geliştirme) kategorisinde katıldık. IEEE IYTE ekibinin özenle hazırladığı 24 adet soruyu cevaplamak için savaştık. Etkinlikte görevli ekibin güleryüzlü ve misafirperverliğini de unutmamak lazım tabiki.
 
 HackerRank sitesi üzerinden yapılan hackathonda sorulan soruları ve bizim bu sorulara getirdiğimiz çözümleri aşağıda bulabilirsiniz. Yazımı paylaşmayı unutmayın. İyi okumalar...
@@ -175,11 +176,11 @@ crypted = ""
 
 Çocukluk oyuncaklarını karıştırırken 1.sınıftaki sayma fasulyelerini bulan Ayşe ve Buğra bir oyun oynamaya karar verdiler. Oyunu başlatmak için fasulyeleri N adet yatay kutuya böldüler. Kutuların bazıları boş olabilir. Oyun boyunca oyuncu aşağıdaki hamleleri yapabilir:
 
-> - 1 fasulyeli bir kutu seçip onu oyundan çıkarabilir
+- 1 fasulyeli bir kutu seçip onu oyundan çıkarabilir
 
-> - 2 fasulyeli bir kutu seçip 1 fasulyeyi çıkarıp diğer fasulyeyi soldaki kutuya koyabilir. Bu hamle en soldaki kutuyla yapılamaz.
+- 2 fasulyeli bir kutu seçip 1 fasulyeyi çıkarıp diğer fasulyeyi soldaki kutuya koyabilir. Bu hamle en soldaki kutuyla yapılamaz.
 
-> - 3 veya daha fazla fasulye içeren bir kutu seçilip 1 fasulye çıkarılabilir, bir fasulye soldaki kutuya konup diğeri ise sağdaki kutuya konabilir. Bu hamle en sağdaki ve en soldaki kutularla yapılamaz.Oyun, her oyuncunun kendi turları sırasında bu hamleleri yapmasıyla devam eder. Hamle yapamayan oyuncu, oyun dışı kalır.
+- 3 veya daha fazla fasulye içeren bir kutu seçilip 1 fasulye çıkarılabilir, bir fasulye soldaki kutuya konup diğeri ise sağdaki kutuya konabilir. Bu hamle en sağdaki ve en soldaki kutularla yapılamaz.Oyun, her oyuncunun kendi turları sırasında bu hamleleri yapmasıyla devam eder. Hamle yapamayan oyuncu, oyun dışı kalır.
 
 Amacınız oyuna uygun bir algoritma geliştirerek verilen bir oyun için kazanan oyuncuyu belirlemektir. Her
 oyuncunun mümkün olan en iyi (yani, her oyuncu kazanmak için en doğru hamleyi yapmalıdır) hamleyi
@@ -394,11 +395,11 @@ for j in range(0,array.__len__()):
 
 Size bir string verilmektedir. Bu string alfanümerik karakterlerden oluşur. Amacınız ise bu stringi bazı kurallar gereğinde sıraya dizmenizdir.( Alfanümerik, Latin alfabesindeki harfleri (A-Z, a-z) ve rakamları (0-9) kullanan karakter dizisini tanımlamakta kullanılan bir sıfat. )
 
-> Küçük harfler büyük harflerden önce gelir.
+- Küçük harfler büyük harflerden önce gelir.
 
-> Büyük harfler rakamlardan önce gelir.
+- Büyük harfler rakamlardan önce gelir.
 
-> Tek rakamlar çift rakamlara göre önce gelir.
+- Tek rakamlar çift rakamlara göre önce gelir.
 
 [Soru metninin tamamı için tıklayınız.](/files/codeofduty-brainhack/haydi-sirala.pdf)
 
