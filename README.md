@@ -9,7 +9,7 @@ verlenler dışında hiç bir illegal karakter girilmemektedir.
 
 isdigit ve herhangi bir string library fonksyonu kullanmadan, Kullanıcı tarafından string olarak girilen ve bir diziye kaydedilen denklemlerin katsayılarını yazacağınız void GetCoefficients(char equation[],int equation_index) prototipli fonksiyonu kullanarak okuyup reel sayılara dönüştüren ve denklemlerin çözümünü otomatik olarak yalnız bu stringlerden yararlanarak bulup kullanıcıya gösteren bir program yazınız.
 
-[Soru metninin tamamı için tıklayınız.](/files/codeofduty-brainhack/bilinmeyen-denklemler.pdf)
+[Soru metninin tamamı için tıklayınız.](/sorular/bilinmeyen-denklemler.pdf)
 
 
 ```Python
@@ -28,7 +28,7 @@ print(int(y))
 
 a) Verilen bir `n` değeri için paskal üçgeninin katsayıların üretip aşağıdaki form şeklinde gösteren bir program yazınız.
 
-[Soru metninin tamamı için tıklayınız.](/files/codeofduty-brainhack/paskal-ucgeni.pdf)
+[Soru metninin tamamı için tıklayınız.](/sorular/paskal-ucgeni.pdf)
 
 
 ```Python
@@ -49,7 +49,7 @@ Eğer o boş zaman dilimi içerisinde o işi bitiremiyorsam asla o işe başlama
 
 Bugün size boş zaman sürelerimi ve yapmam gereken işlerin sürelerini söyleyeceğim. Göreviniz kaç işi tamamlayabileceğimi bulmak.
 
-[Soru metninin tamamı için tıklayınız.](/files/codeofduty-brainhack/takintili-biri.pdf)
+[Soru metninin tamamı için tıklayınız.](/sorular/takintili-biri.pdf)
 
 ```Python
 nt = input().split(" ")
@@ -83,7 +83,7 @@ Size üç sayı verilmektedir. Sırasıyla `A,B` ve `K`. Sizden istenen output, 
 
 `A<= X <= B ve F(X)=K`
 
-[Soru metninin tamamı için tıklayınız.](/files/codeofduty-brainhack/carpimlar-karsisinda-carpilmisa-donduk.pdf)
+[Soru metninin tamamı için tıklayınız.](/sorular/carpimlar-karsisinda-carpilmisa-donduk.pdf)
 ```Python
 N = int(input())
 abx = []
@@ -113,7 +113,7 @@ Size BrainHack’e katılan N tane insanın listesi verilmektedir. Her insanın 
 
 Not: a,b ve c üç farklı insan olsun, o halde (a,b) ve (b,c) iki farklı takım olarak sayılır.
 
-[Soru metninin tamamı için tıklayınız.](/files/codeofduty-brainhack/brainhack-yarismasi.pdf)
+[Soru metninin tamamı için tıklayınız.](/sorular/brainhack-yarismasi.pdf)
 
 ```Python
 nm = input().split(" ")
@@ -137,7 +137,7 @@ Güneşli bir yaz gününde Alpcan’ın dışarıda zaman geçirmesi gerekiyor.
 
 Göreviniz, kalkış ve genel seyahat süresine göre, Alpcan'ın varış noktasına varma süresini hesaplamaktır.
 
-[Soru metninin tamamı için tıklayınız.](/files/codeofduty-brainhack/alpcanin-isparta-sicagiyla-imtihani.pdf)
+[Soru metninin tamamı için tıklayınız.](/sorular/alpcanin-isparta-sicagiyla-imtihani.pdf)
 
 ```Python
 hm1 = input().split(" ")
@@ -161,7 +161,7 @@ print(str(result[0]).zfill(2) + " " + str(result[1]).zfill(2))
 
 Size her kelimenin arasında boşluklar bulunacak şekilde bir cümle verilecektir. Bu cümle, cümleyi veren kişinin şifresini barındıran gizli bir mesaj barındırmaktadır. Siz bu cümleleri oluşturan her kelimenin baş harflerini alıp birleştirerek şifrenin ne olduğunu bulmalısınız.
 
-[Soru metninin tamamı için tıklayınız.](/files/codeofduty-brainhack/sifre-cozmek-ne-kadar-kolay.pdf)
+[Soru metninin tamamı için tıklayınız.](/sorular/sifre-cozmek-ne-kadar-kolay.pdf)
 
 ```Python
 n = input().split(" ")
@@ -188,7 +188,7 @@ yaptığını varsaymalısınız.
 
 Not: Her zaman oyuna A başlar
 
-[Soru metninin tamamı için tıklayınız.](/files/codeofduty-brainhack/fasulyeleri-tasi.pdf)
+[Soru metninin tamamı için tıklayınız.](/sorular/fasulyeleri-tasi.pdf)
 
 ```Python
 kutu = input().split(" ")
@@ -264,7 +264,7 @@ Hadi Ali'ye yardım edelim de küsleri barıştıralım.
 
 `6*10*15=900=30^2`
 
-[Soru metninin tamamı için tıklayınız.](/files/codeofduty-brainhack/ali-ayseyi-seviyoor.pdf)
+[Soru metninin tamamı için tıklayınız.](/sorular/ali-ayseyi-seviyoor.pdf)
 
 ```Python
 import math
@@ -290,7 +290,7 @@ Dilara kendisine verilen kutuyu açtığında her bir renk parçadan b_i tane ol
 
 Göreviniz Dilara’nın bu renksiz parçaları boyayarak legolarla bu karakterden maksimum sayıda çocuklara yaptırmasına yardımcı olmak.
 
-[Soru metninin tamamı için tıklayınız.](/files/codeofduty-brainhack/dilara-partide.pdf)
+[Soru metninin tamamı için tıklayınız.](/sorular/dilara-partide.pdf)
 
 ```Python
 nk = input().split(" ")
@@ -324,7 +324,7 @@ Hasan verilen N değerinin F(N) fonksiyonu yardımıyla, kaç iterasyon sonucund
 
 formunda verilecektir. Eğer Ulaş bunu yapamazsa, on bin kirpik alacaktır. Ulaş’ın bu görevi yerine getirmesine ve Hasan’a olan değerini kanıtlamasına yardım edin.
 
-[Soru metninin tamamı için tıklayınız.](/files/codeofduty-brainhack/ulasa-guven-olur-mu.pdf)
+[Soru metninin tamamı için tıklayınız.](/sorular/ulasa-guven-olur-mu.pdf)
 
 ```Python
 from math import gcd
@@ -363,7 +363,7 @@ for i in array:
 
 Burak sıralı n pozitif sayısından oluşan bir doğum günü hediyesi alıyor. Sıralı altkümelerinin toplamları bu K sayısı ile bölünebilen altkümelere bayılıyor. Burak için bu sayıları sayan bir program yazmanızı istiyoruz.
 
-[Soru metninin tamamı için tıklayınız.](/files/codeofduty-brainhack/burakin-dogum-gunu-hediyesi.pdf)
+[Soru metninin tamamı için tıklayınız.](/sorular/burakin-dogum-gunu-hediyesi.pdf)
 
 ```Python
 
@@ -401,7 +401,7 @@ Size bir string verilmektedir. Bu string alfanümerik karakterlerden oluşur. Am
 
 - Tek rakamlar çift rakamlara göre önce gelir.
 
-[Soru metninin tamamı için tıklayınız.](/files/codeofduty-brainhack/haydi-sirala.pdf)
+[Soru metninin tamamı için tıklayınız.](/sorular/haydi-sirala.pdf)
 
 ```Python
 Str = input()
@@ -451,7 +451,7 @@ print("".join(liste))
 
 Madem programcısınız gösterin hünerinizi !! Size 2 adet rakam veriliyor. N ve K. N sayısı, basamaklı sayı sistemi kullanarak, (Taban değeri 1’den büyük olmalıdır.) verilen K rakamı uzunluğunda bir sayı ile elde edilebilir mi?
 
-[Soru metninin tamamı için tıklayınız.](/files/codeofduty-brainhack/madem-programcisiniz-gosterin-hunerinizi.pdf)
+[Soru metninin tamamı için tıklayınız.](/sorular/madem-programcisiniz-gosterin-hunerinizi.pdf)
 
 ```Python
 counter = int(input())
@@ -481,7 +481,7 @@ for i in case:
 
 Önala yardım edebilmek için bu soruları cevaplayacak bir program yazın.
 
-[Soru metninin tamamı için tıklayınız.](/files/codeofduty-brainhack/usengec-acemi-sofor.pdf)
+[Soru metninin tamamı için tıklayınız.](/sorular/usengec-acemi-sofor.pdf)
 
 ```Python
 NMK = input().split(" ")
